@@ -105,12 +105,3 @@ func Gradient(text string, rgb []string) string {
 
 	return builder.String()
 }
-
-func main() {
-	fmt.Println(Gradient("x o x o | Error Preset!   | x o x o", Error))
-	fmt.Println(Gradient("x o x o | Success Preset! | x o x o", Success))
-	fmt.Println(Gradient("x o x o | Warning Preset! | x o x o", Warning))
-	fmt.Println(Gradient("x o x o | Info Preset!    | x o x o", Info))
-	fmt.Println(Gradient("x o x o | Candy Preset!   | x o x o", Candy))
-	fmt.Println(Gradient("x o x o | Minty Preset!   | x o x o", Minty))
-}
