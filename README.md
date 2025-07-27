@@ -1,9 +1,7 @@
 # Gradify
 A Go package to make colorful gradiant terminal output.
 
----
-
-✨ Features
+## ✨ Features
 
 - 🔹 Hex to RGB conversion  
 - 🔹 Multi-color linear interpolation  
